@@ -1,4 +1,4 @@
-package fr.levitt.secuapi;
+package fr.levitt.secuapi.core;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
