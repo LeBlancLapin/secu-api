@@ -5,9 +5,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class IndexController {
-
     @GetMapping("/")
-    public void index() {
-
+    public Utilisateur index() {
+        return new Utilisateur("james", "bond");
     }
 }
